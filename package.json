@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-      "start": "node ./node_modules/json-server/lib/bin.js --watch db.json --host 0.0.0.0 --port $PORT"
+    "start": "node ./node_modules/json-server/dist/bin.js --watch db.json --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.4"
@@ -11,8 +11,5 @@
   "engines": {
     "node": "18.x"
   }
-
-
 }
-
 
